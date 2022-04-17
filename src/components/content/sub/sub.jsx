@@ -52,7 +52,7 @@ const SubContent = () => {
                     <p className={styleCSS.moreBookButton} onClick={() => navigate('/allbook')}>More Book</p>
                 </div>
                 <div className={styleCSS.bookList}>
-                    {book.map((item, index) => (
+                    {book && book?.map((item, index) => (
                         <div className={styleCSS.bookSection} key={index}>
                             <img src={item.bookCover} onClick={() => bookdetails(item.id)}/>
                             <p className={styleCSS.bookTitle}>{item.title}</p>

@@ -48,7 +48,7 @@ const UnSubContent = () => {
             <div className={styleCSS.secondSection}>
                 <h1>List Book</h1>
                 <div className={styleCSS.bookList}>
-                    {book.map((item, index) => (
+                    {book && book?.map((item, index) => (
                         <div className={styleCSS.bookSection} key={index}>
                             <img onClick={() => setshowNotification(!showNotification)} src={item.bookCover} />
                             <p className={styleCSS.bookTitle}>{item.title}</p>
