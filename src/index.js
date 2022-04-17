@@ -10,6 +10,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 const client = new QueryClient();
 
 ReactDOM.render(
+  <React.StrictMode>
     <UserContextProvider>
       <QueryClientProvider client={client}>
         <Router>
@@ -17,6 +18,7 @@ ReactDOM.render(
         </Router>
       </QueryClientProvider>
     </UserContextProvider>,
+    </React.StrictMode>,
   document.getElementById('root')
 );
 
