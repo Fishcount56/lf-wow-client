@@ -1,0 +1,110 @@
+.profilecontent{
+    display: flex;
+    background-color: #E5E5E5;
+}
+
+.sidenav{
+    margin-left: 35px;
+    width: 20%;
+}
+
+.usercontent{
+    width: 70%;
+    margin-left: 30px;
+    margin-right: 120px;
+    padding-top: 70px;
+}
+
+.usercontent h1{
+    margin-bottom: 30px;
+}
+
+.profilecard{
+    display: flex;
+    background-color: rgba(255, 217, 217, 1);
+    border-radius: 10px;
+}
+
+.identity{
+    width: 70%;
+    padding-top: 40px;
+    padding-left: 35px;
+}
+
+.identity img{
+    max-width: 45px;
+    max-height: 45px;
+    margin-right: 20px;
+    vertical-align: middle;
+    margin-top: 2px;
+}
+
+.lefticon {
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.lefticon p{
+    margin-bottom: 0px;
+    margin-top: -6px;
+}
+
+.userdata{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.template{
+    color: rgba(138, 140, 144, 1);
+    font-weight: 400;
+}
+
+.userphoto {
+    width: 30%;
+    padding-top: 40px;
+    padding-right: 35px;
+    margin-bottom: 30px;
+}
+
+.userphoto img {
+    width: 100%;
+    max-width: 400px;
+    max-height: 300px;
+    border-radius: 8px;
+}
+
+.userphoto button {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.userbooks{
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.bookList{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.userbooksection{
+    width: 23%;
+    margin-right: 20px;
+    margin-bottom: 20px; 
+}
+
+.userbooksection img{
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.ownedbooktitle{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.ownedbookauthor{
+    color: rgba(146, 146, 146, 1);
+}

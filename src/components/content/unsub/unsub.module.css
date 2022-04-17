@@ -1,0 +1,83 @@
+@import url('https://fonts.cdnfonts.com/css/badaboom-bb');
+
+.firstSection{
+    background-image: url(../../../assets/Frame1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.leftSide{
+    padding-left: 45px;
+    width: 60%;
+}
+
+
+.leftSideText{
+    font-family: 'BadaBoom BB', sans-serif;
+    font-size: 90px;
+}
+
+
+.rightSide{
+    width: 40%;
+    margin-left: auto;
+    text-align: center;
+}
+
+.rightSide img{
+    margin-top: 15px;
+}
+
+
+.secondSection{
+    margin-top: 70px;
+}
+
+.bookList{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.bookList img{
+    width: 200px;
+    height: 270px;
+}
+
+.bookSection{
+    width: 23%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.bookSection img{
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.bookSection .bookTitle{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bookTitle{
+    white-space: nowrap; 
+    width: 87%; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.bookSection .bookAuthor{
+    color: rgba(146, 146, 146, 1);
+}
+
+p.notificationBody{
+    text-align: center;
+    color: red;
+    margin-top: 15px;
+    font-size: 24px;
+}

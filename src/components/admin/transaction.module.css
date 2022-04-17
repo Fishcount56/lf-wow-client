@@ -1,0 +1,30 @@
+.tableparent{
+    width: 80%;
+    margin: 40px auto;
+}
+
+.tableheadcontent tr th {
+    vertical-align: middle;
+    text-align: center
+}
+
+
+.tablebodycontent tr td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.approve{
+    color: green;
+}
+.approve:hover{
+    color: green;
+}
+
+.cancel{
+    color: red;
+}
+
+.cancel:hover{
+    color: red;
+}

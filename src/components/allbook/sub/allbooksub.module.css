@@ -1,0 +1,44 @@
+@import url('https://fonts.cdnfonts.com/css/badaboom-bb');
+
+.allBookContent {
+    height: 100vh;
+}
+
+.bookList{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.bookList img{
+    width: 200px;
+    height: 270px;
+}
+
+.bookSection{
+    width: 23%;
+    margin-right: 20px;
+    margin-bottom: 20px; 
+}
+
+.bookSection img{
+    border-radius: 8px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.bookSection .bookTitle{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bookTitle{
+    white-space: nowrap; 
+    width: 87%; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.bookSection .bookAuthor{
+    color: rgba(146, 146, 146, 1);
+}

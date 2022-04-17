@@ -1,0 +1,96 @@
+.viewbookcontent{
+    display: flex;
+    background-color: #E5E5E5;
+}
+
+.sidenav{
+    margin-left: 35px;
+    width: 20%;
+}
+
+.bookcontent{
+    width: 70%;
+    margin-left: 30px;
+    margin-right: 120px;
+    padding-top: 70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.firstbooksection{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.bookcoverimage{
+    width: 30%;
+}
+
+.bookcoverimage img{
+    width: 100%;
+}
+
+.bookinformation{
+    width: 70%;
+    padding-left: 40px;
+    margin-top: 30px;
+}
+
+p.booktitle{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 0.5;
+}
+
+p.bookauthor{
+    font-size: 24px;
+    color: #929292;
+    margin-bottom: 45px;
+}
+
+p.bookmarks{
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 0.28;
+}
+
+p.bookdatas{
+    font-size: 20px;
+    color: #929292;
+    margin-bottom: 40px;
+}
+
+p.bookmarksred{
+    font-size: 30px;
+    color: #D60000;
+    line-height: 0.28;
+    font-weight: 800;
+}
+
+.booksecondsection{
+    margin-bottom: 150px;
+}
+
+p.bookdescription{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+p.aboutthisbook{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #929292;
+    list-style: 27px;
+    text-align: justify;
+}
+
+.bookbuttons{
+    float: right;
+    margin-right: 130px;
+    margin-bottom: 50px;
+}
+
+.bookbuttons button{
+    margin-left: 25px;
+}

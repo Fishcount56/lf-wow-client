@@ -1,0 +1,38 @@
+.addbookContent {
+    background-color: #F2F2F2;
+    height: 100%;
+    padding-bottom: 100px;
+}
+
+.addbookparents{
+    background-color: #F2F2F2;
+    height: 100%;
+}
+
+.contentaddform{
+    width: 75%;
+    margin: 40px auto;
+    background-color: #F2F2F2;
+}
+
+.addform{
+    margin-top: 30px;
+}
+
+.addform input {
+    margin-bottom: 15px;
+}
+
+.addform textarea{
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+    resize: vertical;
+    margin-bottom: 10px;
+    border: 2px solid #D2D2D2;
+    border-radius: 5px;
+}
+
+.addform button{
+    float: right;
+}
